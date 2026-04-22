@@ -13,9 +13,9 @@ const HomePage = () => {
         <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 pt-32">
           <div className="box">
             <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">Belajar Memuat Website dengan <span className="font-bold text-sky-400">Tailwind</span></h1>
-            <p className="text-base/8 mb-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae iste explicabo, quidem eum assumenda quasi nostrum nemo qui sapiente nisi eius aliquid consequuntur temporibus a commodi mollitia. Repellendus, laboriosam incidunt!</p>
-            <a href="#" className="bg-sky-400 hoover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full">
-              Tentang Kami <i className="ri-eye-line ms-1"></i>
+            <p className="text-base/8 mb-7">Halo! Saya Muhammad Irsyad Gumanof, seorang developer yang suka membangun aplikasi web sederhana dan fungsional. Ini merupakan projek pertama saya menggunakan Tailwind CSS.</p>
+            <a href="https://muhammadirsyadgumanof.blogspot.com/" target="blank" className="bg-sky-400 hoover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full">
+              My Blogspot <i className="ri-eye-line ms-1"></i>
             </a>
           </div>
           <div className="box">
@@ -28,8 +28,9 @@ const HomePage = () => {
             <img src={AboutImage} alt="About Image" className="lg:w-[500px] w-[400px] md:m-0 mx-auto"/>
           </div>
           <div className="box md:order-2 order-1">
-            <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">Belajar Memuat Website dengan <span className="font-bold text-sky-400">Tailwind</span></h1>
-            <p className="text-base/loose">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae iste explicabo, quidem eum assumenda quasi nostrum nemo qui sapiente nisi eius aliquid consequuntur temporibus a commodi mollitia. Repellendus, laboriosam incidunt!</p>
+            <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">About Me</h1>
+            <p className="text-base/loose">Saya merupakan Mahasiswa Politeknik Negeri Padang dengan Prodi Teknologi Rekayasa Perangkat Lunak. Saya berambisi untuk menjadi Fullstack Web Developer dan menjadi Mentor untuk orang lain.
+            Silahkan kunjungi <a href="https://github.com/M-IrsyadGumanof/" target="blank" className="text-sky-400">Github</a> saya untuk melihat projek saya. Just For Fun.</p>
           </div>
         </div>
 
